@@ -1,0 +1,13 @@
+body{width: 100vw;height: 100vh;}
+
+#img{width: 300px !important;}
+
+#header {
+    height: 100%; background-color: rgb(187, 236, 230) !important;
+}
+
+#main{height: 80vh;}
+
+#footer{height: 25vh;}
+
+
