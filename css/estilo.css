@@ -1,13 +1,37 @@
-body{width: 100vw;height: 100vh;}
-
-#img{width: 300px !important;}
-
-#header {
-    height: 100%; background-color: rgb(187, 236, 230) !important;
+body {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(90, 82, 187);
+    background: linear-gradient(90deg, rgba(90, 82, 187, 1) 0%, rgba(218, 218, 242, 1) 36%, rgba(188, 217, 244, 1) 72%, rgba(102, 179, 195, 1) 100%);
 }
 
-#main{height: 80vh;}
+#img {
+    width: 300px !important;
+    perspective: 2500;
+    transition: 1s ease;
+}
 
-#footer{height: 25vh;}
+#header {
+    height: 100%;
+    background-color: rgb(187, 236, 230) !important;
+}
 
+#main {
+    height: 80vh;
+}
 
+#footer {
+    height: 25vh;
+}
+
+#section1 a :hover {
+    transform: scale(1.1);
+}
+
+#section2 a :hover {
+    transform: scale(1.1);
+}
+
+#section3 a :hover {
+    transform: scale(1.1);
+}
