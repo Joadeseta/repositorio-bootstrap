@@ -2,7 +2,8 @@ body {
     width: 100vw;
     height: 100vh;
     background: rgb(90, 82, 187);
-    background: linear-gradient(90deg, rgba(90, 82, 187, 1) 0%, rgba(218, 218, 242, 1) 36%, rgba(188, 217, 244, 1) 72%, rgba(102, 179, 195, 1) 100%);
+    background: rgb(187,236,230);
+background: linear-gradient(90deg, rgba(187,236,230,1) 0%, rgba(187,236,230,1) 0%, rgba(255,255,255,1) 50%, rgba(187,236,230,1) 100%);
 }
 
 #img {
@@ -17,15 +18,15 @@ body {
 }
 
 #main {
-    height: 80vh;
+    height: 100%;
 }
 
 #footer {
-    height: 25vh;
+    height: 100%;
 }
 
 #section1 a :hover {
-    transform: scale(1.1);
+    transform: scale(1.1); 
 }
 
 #section2 a :hover {
@@ -35,3 +36,16 @@ body {
 #section3 a :hover {
     transform: scale(1.1);
 }
+
+#placa{ width: 100%; display: block; width: 68vw;}
+#pcgamer{ width: 100%; display: block; width: 68vw;}
+#micro{ width: 100%; display: block; width: 68vw;}
+
+#btn{width: 80%;}
+
+
+#font_nosotros{font-size: 4rem !important;}
+
+#font_nosotros2{font-size: 2rem !important;}
+
+#foto_Nosotros{width: 50%; !important}

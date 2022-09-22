@@ -66,7 +66,7 @@
                                         href="../páginas/Microprocesadores.html">Microprocesadores</a></li>
                                 <li><a class="dropdown-item  text-info" href="../páginas/pcgamer.html">Pc Gamer</a></li>
                             </ul>
-                       
+
                         </li>
                         <li class="nav-item">
                             <a class="nav-link  text-info" href="../páginas/contacto.html" tabindex="-1" aria-disabled="true">Contacto</a>
@@ -109,17 +109,78 @@
         <div class="row p-5" id="main">
 
             <section
-                class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 h-auto d-flex flex-column justify-content-center align-items-center"
-                id="section1 ">
+                class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 h-auto d-flex flex-column justify-content-center align-items-center">
 
-                <h2 class="fs-8" id="font_nosotros">SOMOS PC WORLD!</h2>
+                <form method="post">
 
-                <img class="p-5 d-block w-100" id="foto_Nosotros" src="../assets/imagenes/nosotros.jpg" alt="">
-
-                <p class="text-center p-5" id="font_nosotros2">Somos una empresa familiar fundada en la ciudad de SANTA
-                    FE en el año 2022. Nuestro principal capital invertido fue esfuerzo, trabajo y las ganas de
-                    superarnos día a día con la esperanza de crear una estructura sólida que nos permitiera hacer frente
-                    a los distintos desafíos que se nos podían presentar a lo largo del tiempo.</p>
+                    <fieldset>
+        
+                        <legend>COMPLETE LOS DATOS Y HAGA SU CONSULTA A CONTINUACIÓN</legend>
+        
+                        <br>
+                        <div>
+                            <label for="NOMBRE">NOMBRE</label>
+                            <input type="text" id="NOMBRE" placeholder="INGRESE NOMBRE" required>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="APELLIDO">APELLIDO</label>
+                            <input type="text" id="APELLIDO" placeholder="INGRESE APELLIDO" required>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="E-MAIL">E-MAIL</label>
+                            <input type="text" id="E-MAIL" placeholder="INGRESE E-MAIL" required>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="TELEFONO">TELÉFONO</label>
+                            <input type="text" id="TELEFONO" placeholder="INGRESE TELÉFONO" required>
+                        </div>
+                        <br>
+                        <DIV>
+                            <label for="Newsletters">¿Deseas recibir Newsletters?</label>
+                            <input type="checkbox" id="Newsletters">
+                        </DIV>
+                        <br>
+                        <div>
+                            GÉNERO
+                            <br>
+                            <label for="géneroM">Masculino</label>
+                            <input type="radio" name="Género" id="géneroM" value="Masculino" checked>
+                            <label for="géneroF">Femenino</label>
+                            <input type="radio" name="Género" id="géneroF" value="Femenino">
+                        </div>
+                        <br>
+                        <div>
+                            Estado Civil
+                            <select name="Estado Civil">
+                                <option value="Solter/a">Soltero/a</option>
+                                <option value="Casado/a">Casado/a</option>
+                                <option value="Viudo/a">Viudo/a</option>
+                            </select>
+                        </div>
+        
+                        <br>
+                        <div>
+                            <fieldset>
+                                <legend>Comentario</legend>
+                                <textarea name="comentario" id="comentario" cols="30" rows="10"
+                                    placeholder="Ingrese su Comentario" required></textarea>
+                            </fieldset>
+                        </div>
+                        <br>
+        
+                        <div>
+        
+                            <input type="reset">
+                            <input type="submit">
+                            
+                            
+                        </div>
+        
+                    </fieldset>
+                </form>
 
             </section>
 
