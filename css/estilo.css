@@ -1,51 +1,110 @@
 body {
-    width: 100vw;
-    height: 100vh;
-    background: rgb(90, 82, 187);
-    background: rgb(187,236,230);
-background: linear-gradient(90deg, rgba(187,236,230,1) 0%, rgba(187,236,230,1) 0%, rgba(255,255,255,1) 50%, rgba(187,236,230,1) 100%);
-}
-
-#img {
-    width: 300px !important;
-    perspective: 2500;
-    transition: 1s ease;
+  width: 100vw;
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, right top, from(rgb(187, 236, 230)), color-stop(51%, rgb(228, 254, 254)), to(rgb(187, 236, 230)));
+  background: linear-gradient(90deg, rgb(187, 236, 230) 0%, rgb(228, 254, 254) 51%, rgb(187, 236, 230) 100%);
 }
 
 #header {
-    height: 100%;
-    background-color: rgb(187, 236, 230) !important;
+  height: 100%;
+}
+#header #img {
+  width: 300px !important;
+  -webkit-perspective: 2500;
+  perspective: 2500;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
 }
 
 #main {
-    height: 100%;
+  height: 100%;
 }
-
-#footer {
-    height: 100%;
+#main #section1 a :hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
-
-#section1 a :hover {
-    transform: scale(1.1); 
+#main #placa {
+  width: 100%;
+  display: block;
+  width: 68vw;
 }
 
 #section2 a :hover {
-    transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+#section2 a :hover #pcgamer {
+  width: 100%;
+  display: block;
+  width: 68vw;
 }
 
 #section3 a :hover {
-    transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+#section3 a :hover #micro {
+  width: 100%;
+  display: block;
+  width: 68vw;
 }
 
-#placa{ width: 100%; display: block; width: 68vw;}
-#pcgamer{ width: 100%; display: block; width: 68vw;}
-#micro{ width: 100%; display: block; width: 68vw;}
+#footer {
+  height: 100%;
+}
+#footer #font_nosotros {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 3rem;
+  color: rgb(39, 46, 46);
+}
+#footer #foto_nosotros {
+  width: 10vw;
+}
+#footer #font_nosotros2 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 2rem;
+  color: rgb(39, 46, 46);
+}
 
-#btn{width: 80%;}
+#btn {
+  width: 80%;
+}
 
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
 
-#font_nosotros{font-size: 4rem !important;}
+.caja {
+  width: 40vw;
+  height: 100%;
+  background-color: rgb(209, 209, 209);
+}
 
-#font_nosotros2{font-size: 2rem !important;}
+h1 {
+  font-family: "Noto Sans", sans-serif;
+  text-align: center;
+  color: rgb(39, 46, 46);
+}
 
-#foto_Nosotros{width: 50%; !important}
+h2 {
+  font-family: "Noto Sans", sans-serif;
+  text-align: center;
+  color: rgb(39, 46, 46);
+}
+
+p {
+  font-family: "Noto Sans", sans-serif;
+  text-align: center;
+  color: rgb(39, 46, 46);
+}
+
+.separador {
+  width: 100%;
+  height: 10px;
+  margin: 40px;
+  background: -webkit-gradient(linear, left top, right top, from(rgb(187, 236, 230)), color-stop(0%, rgb(254, 255, 0)), color-stop(50%, rgb(0, 249, 255)), to(rgb(255, 0, 245)));
+  background: linear-gradient(90deg, rgb(187, 236, 230) 0%, rgb(254, 255, 0) 0%, rgb(0, 249, 255) 50%, rgb(255, 0, 245) 100%);
+}
