@@ -1,12 +1,109 @@
-@import "./partials/varables.scss";
+@import "./partials/variables";
+
+@import "./partials/reset.scss";
+
 @import "./partials/body";
 @import "./partials/header";
 @import "./partials/main";
 @import "./partials/footer";
 @import "./partials/btn";
-@import "./partials/reset.scss";
 @import "./partials/PáginaNosotros";
 @import "./partials/texto";
 @import "./partials/separadores";
 
 
+
+
+@each $color in blueviolet,
+greenyellow,
+cadetblue {
+    .Section#{$color} {
+        background-color: $color;
+    }
+}
+
+;
+
+
+// --------------------------------------------------------------------------
+
+
+$redes: (facebook: rgb(31, 31, 253), instagram: rgb(245, 20, 58), twiter: rgb(4, 252, 219), );
+
+
+
+@each $redsocial,
+$colorderedes in $redes {
+    .fa-#{$redsocial} {
+        background-color: $colorderedes;
+    }
+
+}
+
+;
+
+
+// --------------------------------------------------------------------------
+
+.fa-instagram {
+    margin: 10px;
+    border-radius: 15px;
+
+    &:hover {
+        background-color: yellow
+    }
+}
+
+;
+
+
+.fa-twiter {
+    @extend .fa-instagram;
+}
+
+;
+
+.fa-facebook {
+    @extend %Pararedes
+}
+
+;
+
+// --------------------------------------------------------------------------
+
+.cajitas {
+    margin-bottom: 3rem;
+    gap: 1rem;
+    border-radius: 20px;
+}
+
+.cajita {
+    border-style: dashed;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+;
+
+
+@mixin tamanos ($alto, $ancho) {
+    width: $ancho;
+    height: $alto;
+}
+
+;
+
+
+.cajitas .cajita1 {
+   
+    @include tamanos(300px, 300px)
+}
+
+.cajitas .cajita2 {
+    @include tamanos(150px, 400px)
+}
+
+.cajitas .cajita2 {
+    @include tamanos(10px, 500px)
+}

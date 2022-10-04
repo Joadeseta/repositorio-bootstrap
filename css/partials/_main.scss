@@ -3,39 +3,39 @@
 
 
     #section1 a :hover {
-        transform: scale(1.1);}
-
-
-        #placa {
-            width: 100%;
-            display: block;
-            width: 68vw;
-        }
-    }
-
-    #section2 a :hover {
         transform: scale(1.1);
-
-        #pcgamer {
-            width: 100%;
-            display: block;
-            width: 68vw;
-        }
-    }
-
-    #section3 a :hover {
-        transform: scale(1.1);
-
-
-        #micro {
-            width: 100%;
-            display: block;
-            width: 68vw;
-        }
     }
 
 
+    #placa {
+
+        display: block;
+        width: 68vw;
+    }
+}
+
+#section2 a :hover {
+    transform: scale(1.1);
+
+    #pcgamer {
+
+        display: block;
+        width: 68vw;
+    }
+}
+
+#section3 a :hover {
+    transform: scale(1.1);
 
 
+    #micro {
+
+        display: block;
+        width: 68vw;
+    }
 
 
+    
+
+
+}
